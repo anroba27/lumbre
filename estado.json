@@ -4,7 +4,7 @@
   "pasos": {
     "lumbre": {"hecho": true, "fecha": "2026-11-21"},
     "domingo": {"hecho": false, "fecha": null},
-    "heridas": {"hecho": false, "fecha": null},
+    "heridas": {"hecho": true, "fecha": "2026-11-21"},
     "cuanto_necesito": {"hecho": false, "fecha": null},
     "autopistas": {"hecho": false, "fecha": null},
     "a_quien_ayudo": {"hecho": false, "fecha": null},
