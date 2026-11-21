@@ -1,0 +1,24 @@
+Return-Path: <recepcion@gimnasioapice.example>
+From: Gimnasio Ápice <recepcion@gimnasioapice.example>
+To: Elena Robles <elena.robles@correo.example>
+Subject: Recibo de tu cuota
+Date: Sat, 2 May 2026 08:15:40 +0200
+Message-ID: <9a9b77d2.c14a9e47@gimnasioapice.example>
+MIME-Version: 1.0
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+
+<html><body style="font-family:Arial,sans-serif;color:#222">
+<h2 style="color:#e8590c">GIMNASIO ÁPICE</h2>
+<p>Hola, Elena Robles. Te enviamos la factura de tu cuota.</p>
+<p>Factura nº <b>GA-2026-05-0187</b><br>Fecha de factura: <b>02/05/2026</b><br>Socia nº 10442 · Plan Completo</p>
+<table style="border-collapse:collapse;width:100%;max-width:520px;font-size:14px">
+<tr><td style="padding:6px 0;border-bottom:1px solid #eee">Cuota mensual Plan Completo</td><td style="padding:6px 0;border-bottom:1px solid #eee;text-align:right">33,02 €</td></tr>
+<tr><td style="padding:6px 0">Base imponible</td><td style="text-align:right">33,02 €</td></tr>
+<tr><td style="padding:6px 0">IVA 21 %</td><td style="text-align:right">6,93 €</td></tr>
+<tr><td style="padding:8px 0;font-weight:bold;border-top:2px solid #333">Total</td><td style="text-align:right;font-weight:bold;border-top:2px solid #333">39,95 €</td></tr>
+</table>
+<p>Cargo por domiciliación bancaria.</p>
+<p style="font-size:12px;color:#777">Ápice Fitness Arganzuela, S.L. · NIF B88120476 · Calle del Ápice 9, 28045 Madrid</p>
+<p style="font-size:11px;color:#aaa;text-align:center;margin-top:30px">Documento ficticio · Lumbre 2026</p>
+</body></html>

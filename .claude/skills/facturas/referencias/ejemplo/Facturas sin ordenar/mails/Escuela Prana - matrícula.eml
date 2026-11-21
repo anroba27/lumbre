@@ -1,0 +1,23 @@
+Return-Path: <secretaria@escuelaprana.example>
+From: Escuela Prana <secretaria@escuelaprana.example>
+To: Elena Robles <elena.robles@correo.example>
+Subject: Matrícula confirmada: Yoga restaurativo
+Date: Wed, 2 Sep 2026 16:21:50 +0200
+Message-ID: <46e8a28f.1d394b1a@escuelaprana.example>
+MIME-Version: 1.0
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+
+<html><body style="font-family:Georgia,serif;color:#2e3a2f;max-width:600px;margin:auto">
+<h2 style="color:#5b7f4f">Escuela Prana</h2>
+<p>Querida Elena Robles, tu matrícula está confirmada. El curso empieza el 14 de septiembre.</p>
+<p><b>Factura nº EP-2026-0389</b><br>Fecha: 02/09/2026<br>Alumna: Elena Robles Navas · NIF 51837204N</p>
+<table style="border-collapse:collapse;width:100%;max-width:520px;font-size:14px">
+<tr><td style="padding:6px 0;border-bottom:1px solid #eee">Curso online «Yoga restaurativo», 40 h</td><td style="padding:6px 0;border-bottom:1px solid #eee;text-align:right">120,00 €</td></tr>
+<tr><td style="padding:6px 0">Base imponible</td><td style="text-align:right">120,00 €</td></tr>
+<tr><td style="padding:6px 0">IVA 21 %</td><td style="text-align:right">25,20 €</td></tr>
+<tr><td style="padding:8px 0;font-weight:bold;border-top:2px solid #333">Total</td><td style="text-align:right;font-weight:bold;border-top:2px solid #333">145,20 €</td></tr>
+</table>
+<p>Pagado con tarjeta.</p>
+<p style="font-size:12px;color:#777">Escuela Prana Formación, S.L. · NIF B76540129 · Calle de la Respiración 3, 18009 Granada</p>
+<p style="font-size:11px;color:#aaa;text-align:center;margin-top:30px">Documento ficticio · Lumbre 2026</p></body></html>

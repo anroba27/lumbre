@@ -1,0 +1,22 @@
+Return-Path: <gracias@pantallaplus.example>
+From: Pantalla Plus <gracias@pantallaplus.example>
+To: Elena Robles <elena.robles@correo.example>
+Subject: ¡Gracias por tu pago, Elena!
+Date: Tue, 21 Jul 2026 19:30:00 +0200
+Message-ID: <d30603bf.88d7ea2a@pantallaplus.example>
+MIME-Version: 1.0
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+
+<html><body style="font-family:Verdana,sans-serif;color:#222;background:#fff7e6;padding:20px">
+<h1 style="color:#ff7a00;margin:0">Pantalla<span style="color:#222">Plus</span></h1>
+<p>Gracias por tu pago. Te dejamos el detalle:</p>
+<p>Número de factura: <b>PP-2026-0721-90014</b><br>Fecha de emisión: <b>21/07/2026</b><br>Tu plan: Básico con anuncios</p>
+<table style="border-collapse:collapse;width:100%;max-width:520px;font-size:14px">
+<tr><td style="padding:6px 0;border-bottom:1px solid #eee">Plan Básico con anuncios, 1 mes</td><td style="padding:6px 0;border-bottom:1px solid #eee;text-align:right">6,60 €</td></tr>
+<tr><td style="padding:6px 0">Base imponible</td><td style="text-align:right">6,60 €</td></tr>
+<tr><td style="padding:6px 0">IVA (21%)</td><td style="text-align:right">1,39 €</td></tr>
+<tr><td style="padding:8px 0;font-weight:bold;border-top:2px solid #333">Total</td><td style="text-align:right;font-weight:bold;border-top:2px solid #333">7,99 €</td></tr>
+</table>
+<p style="font-size:11px;color:#666">Pantalla Plus Digital, S.L., NIF B40338175, Avenida de los Fotogramas 95, 46023 Valencia.</p>
+<p style="font-size:11px;color:#aaa;text-align:center;margin-top:30px">Documento ficticio · Lumbre 2026</p></body></html>
