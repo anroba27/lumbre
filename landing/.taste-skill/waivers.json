@@ -1,0 +1,2 @@
+[{"check":"no-visual","target":"section#preguntas","reason":"sections.md §1: an FAQ section may go without a picture, once a page; its neighbours (the app-frame and the steps) both carry UI."},
+ {"check":"copy-headings","target":"h2#preguntas-h","reason":"The page is in Spanish: 'Preguntas' is the section noun (questions) and Recesa is the product's name; the card titles are verb and object ('Recibe las solicitudes')."}]

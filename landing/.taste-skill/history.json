@@ -1,0 +1,38 @@
+{
+ "moments": [
+  {
+   "id": "line-carries-colour",
+   "at": "2026-11-21T18:06:54.313Z",
+   "seed": "67ce62a6"
+  },
+  {
+   "id": "liquid-hover",
+   "at": "2026-11-21T18:06:54.313Z",
+   "seed": "67ce62a6"
+  },
+  {
+   "id": "word-highlight",
+   "at": "2026-11-21T18:09:11.685Z",
+   "seed": "58dfebe4"
+  },
+  {
+   "id": "liquid-type",
+   "at": "2026-11-21T18:09:11.685Z",
+   "seed": "58dfebe4"
+  }
+ ],
+ "palettes": [
+  "plaster-rose"
+ ],
+ "types": [
+  "gabarito"
+ ],
+ "dealt": [
+  "plex",
+  "manrope",
+  "familjen",
+  "gabarito",
+  "funnel",
+  "instrument"
+ ]
+}

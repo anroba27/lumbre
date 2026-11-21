@@ -1,0 +1,11 @@
+{
+ "page": "index.html",
+ "url": null,
+ "root": null,
+ "kind": "software",
+ "category": "marketplace de retiros",
+ "primary": "Busca tu retiro",
+ "rounds": 3,
+ "start": "2026-11-21T18:06:50.228Z",
+ "by": "gate.mjs --start"
+}

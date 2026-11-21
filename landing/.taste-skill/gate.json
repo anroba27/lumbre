@@ -1,0 +1,383 @@
+{
+ "start": "2026-11-21T18:06:50.228Z",
+ "round": 1,
+ "idle": 0,
+ "errors": 0,
+ "status": "pass",
+ "history": [
+  {
+   "at": "2026-11-21T18:24:25.398Z",
+   "mode": "manual",
+   "status": "fail",
+   "fails": 6,
+   "round": 1,
+   "reused": false,
+   "stopHookActive": false
+  },
+  {
+   "at": "2026-11-21T18:26:47.081Z",
+   "mode": "manual",
+   "status": "pass",
+   "fails": 0,
+   "round": 1,
+   "reused": false,
+   "stopHookActive": false
+  }
+ ],
+ "max": 3,
+ "marker": {
+  "page": "index.html",
+  "url": null,
+  "root": null,
+  "kind": "software",
+  "category": "marketplace de retiros",
+  "primary": "Busca tu retiro",
+  "rounds": 3,
+  "start": "2026-11-21T18:06:50.228Z",
+  "by": "gate.mjs --start"
+ },
+ "manual": true,
+ "roundKey": "46a3fad0910100c3:11658b93",
+ "roundFree": false,
+ "idleFree": false,
+ "blockKey": null,
+ "fp": "527afcfadbec2b35",
+ "page": "index.html",
+ "found": {
+  "fails": [
+   {
+    "check": "no-visual",
+    "where": "section#preguntas \"Preguntas sobre Recesa\"",
+    "msg": "no picture, effect or mock in this section; a feature section needs a visual",
+    "fix": "give the section a visual: a UI fragment on a ground, real icons, or a photograph that fits",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "no-visual"
+    ],
+    "wheres": [
+     "section#preguntas \"Preguntas sobre Recesa\""
+    ]
+   },
+   {
+    "check": "copy-headings",
+    "where": "h2#preguntas-h \"Preguntas sobre Recesa\"",
+    "msg": "\"Preguntas sobre Recesa\" names no product, part, place or section (4 headings like it; at most one brand line per page) (and 3 more like it: \"¿Cómo me apunto como org\", \"Elige dónde aparece\", \"Recibe las solicitudes\")",
+    "fix": "name the thing in every heading: the product, a part, the place or a section noun",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "copy-headings"
+    ],
+    "wheres": [
+     "h2#preguntas-h \"Preguntas sobre Recesa\""
+    ]
+   }
+  ],
+  "warns": [
+   {
+    "check": "overlap-text",
+    "where": "div.stage.stage--fade-b > div.at-rise.fit > div.ui.ui-doc > aside.ui-doc__note.ui-panel \"Falta ¿A qué hora se llega el viernes? L\"",
+    "msg": "inside div.ui.ui-doc, a box sits on the mock's own text and hides it mid-line (\"Retiro de yoga y meditación de\")",
+    "fix": "move the box off the text (or the text off the box)",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "cut-text",
+    "where": "div.d-win__body > div.inbox > div.t:nth-of-type(2) > span \"Fin de semana, cerca de la sierra\"",
+    "msg": "shortened with an ellipsis (and 1 more like it: \"Yoga en la sierra · 2 pe\")",
+    "fix": "give the text room: no overflow clipping a line, no line past its box",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "cut-text",
+    "where": "ul.ui-notify__list > li.ui-note:nth-of-type(3) > span.ui-note__text > span.ui-note__body \"Ruta de los collados · 4 personas\"",
+    "msg": "cut 13px at the bottom by the overflow of div.wrap > div.grid > article.card.card--row:nth-of-type(3) > div.panel: a fragment run out through its panel's edge",
+    "fix": "give the text room: no overflow clipping a line, no line past its box",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "copy-actions",
+    "where": "(the page)",
+    "msg": "the main action \"Busca tu retiro\" does not read word for word the same in the nav or hero and the closing section",
+    "fix": "few actions, one wording: at most 2 in the hero, the main action word for word in nav, hero and close",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "text-contrast",
+    "where": "div.ui.ui-panel > div.ui-cal__days > span.ui-cal__d:nth-of-type(12) > b \"12\"",
+    "msg": "11 lines of text in drawn mocks read under 4.5:1 (4 colour pairs), the worst \"12\" in #d4cdc9 on #f6f0eb at 1.39:1",
+    "fix": "lift the mocks' muted text (labels, meta, initials) to 4.5:1 on their own panel, or set it larger",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "section-gaps",
+    "where": "section#buscador / section#preguntas",
+    "msg": "189px between these sections, -36% against the median 298px",
+    "fix": "use one gap between sections (all within 25% of each other)",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "section-gaps",
+    "where": "section#preguntas / section#organizadores",
+    "msg": "uneven space at the edge of a band: 209px outside its edge, 117px inside it (the space on either side of a change of ground reads as one gap only when the two match)",
+    "fix": "use one gap between sections (all within 25% of each other)",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "nav-labels",
+    "where": "header.nav.nav--centre > div.wrap.nav__bar > a.nav__logo \"Recesa\"",
+    "msg": "\"Recesa\" opens a section headed \"Marketplace de retiros para viajeros\"",
+    "fix": "name each nav link after the heading of the section it opens",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "nav-labels",
+    "where": "div.wrap.nav__bar > nav.nav__links > div.nav__item:nth-of-type(1) > a.nav__link \"Buscador\"",
+    "msg": "\"Buscador\" opens a section headed \"Todos los retiros, con fechas y plazas\"",
+    "fix": "name each nav link after the heading of the section it opens",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "nav-labels",
+    "where": "div.nav__menu > div.wrap.grid > div.menu-col.span-4 > a:nth-of-type(1) \"Cómo funcionaLa ficha, las búsquedas y l\"",
+    "msg": "\"Cómo funcionaLa ficha, las búsquedas y l\" opens a section headed \"Publica tu retiro en 3 pasos. Para organizadores.\"",
+    "fix": "name each nav link after the heading of the section it opens",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "label-centre",
+    "where": "header.nav.nav--centre > div.wrap.nav__bar > div.nav__actions > a.btn.btn--primary \"Publica tu retiro\"",
+    "msg": "its label sits 18px off-centre (25px of room at the left, 43px at the right) (and 1 more like it: \"Publica tu retiro\")",
+    "fix": "centre the label in its button, or fill the empty side with an icon",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "fade-cut",
+    "where": "ul.ui-toggles__list > li.ui-tg:nth-of-type(4) > span.ui-tg__text > span.ui-tg__sub \"Para quien empieza\"",
+    "msg": "a line of div.ui.ui-panel fades out under its edge (\"Para quien empieza\"): drawn at a fraction of #6a5d5e on #fffefc, half-erased",
+    "fix": "fit the mock's rows inside its panel (fewer rows, a taller panel), or end the fade below the last whole row: no row half-erased",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "fade-cut",
+    "where": "ul.ui-notify__list > li.ui-note:nth-of-type(3) > span.ui-note__text > span.ui-note__title \"Plazas confirmadas ayer\"",
+    "msg": "2 lines of div.ui.ui-notify fade out under its edge (\"Plazas confirmadas aye\", \"ayer\"): drawn at a fraction of #2c2325 on #fffefc, half-erased",
+    "fix": "fit the mock's rows inside its panel (fewer rows, a taller panel), or end the fade below the last whole row: no row half-erased",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "copy-length",
+    "where": "section#preguntas \"Preguntas sobre Recesa\"",
+    "msg": "1 section over 90 words a screen outside the UI mocks (\"Preguntas sobre Recesa\" 119); 50 words a screen across the page (297 words in 6 screens): a tech page says it in about 80 or fewer",
+    "fix": "cut every section to its heading, one line and the product UI: the UI says the rest; no second paragraph, no list of feature sentences",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "nav-current",
+    "where": "header.nav.nav--centre",
+    "msg": "the nav stays on screen with 3 links to the page's sections, but never marks the one you are in (no link changes as the page scrolls)",
+    "fix": "mark the link of the section on screen (a colour, a weight or a line under it) as the visitor scrolls",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "action-repeat",
+    "where": "header.nav.nav--centre > div.wrap.nav__bar > div.nav__actions > a.btn.btn--primary \"publica tu retiro\"",
+    "msg": "\"publica tu retiro\" shows 2 times on the first screen at 1440px (nav, hero): the nav's button and the hero's; nothing else on the screen may repeat it",
+    "fix": "show the action once a screen besides the nav's button: the hero's, the close's or the phone bar's, never all at once",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "form-send",
+    "where": "div.wrap > div.grid.grid--top > div.span-5.stack-4:nth-of-type(1) > form.form \"mailto:hola@recesa.example\"",
+    "msg": "the form opens a mail to hola@recesa.example: a stand-in until the client gives its form address; list it in the report",
+    "fix": "send the form to the client's address (data-endpoint) and show the confirmation only after it answers; list a mailto stand-in in the report",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "nav",
+    "where": "header.nav.nav--centre > div.wrap.nav__bar > button.nav__toggle",
+    "msg": "the nav is lopsided: its last item ends 13px inside the content's edge (366px), while its first starts on the other edge",
+    "fix": "start the nav's first item and end its last on the content's two edges",
+    "widths": [
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "overlap-text",
+    "where": "div.at-rise.fit > div.ui.ui-doc > aside.ui-doc__note.ui-panel > div.ui-doc__msg \"¿A qué hora se llega el viernes?\"",
+    "msg": "inside div.ui.ui-doc, a box sits on the mock's own text and hides it mid-line (\"Incluye alojamiento en habitac\") (and 1 more like it: \"Falta ¿A qué hora se lle\")",
+    "fix": "move the box off the text (or the text off the box)",
+    "widths": [
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "cut-text",
+    "where": "ul.ui-notify__list > li.ui-note:nth-of-type(3) > span.ui-note__text > span.ui-note__title \"Plazas confirmadas ayer\"",
+    "msg": "cut 8px at the bottom by the overflow of div.wrap > div.grid > article.card.card--row:nth-of-type(3) > div.panel: a fragment run out through its panel's edge (and 1 more like it: \"ayer\")",
+    "fix": "give the text room: no overflow clipping a line, no line past its box",
+    "widths": [
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "text-contrast",
+    "where": "li.ui-note:nth-of-type(3) > span.ui-note__text > span.ui-note__title > time \"ayer\"",
+    "msg": "6 lines of text in drawn mocks read under 4.5:1 (3 colour pairs), the worst \"ayer\" in #867b7b on #ebe0d9 at 3.16:1",
+    "fix": "lift the mocks' muted text (labels, meta, initials) to 4.5:1 on their own panel, or set it larger",
+    "widths": [
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "section-gaps",
+    "where": "section#organizadores / section#publica",
+    "msg": "510px between these sections, +52% against the median 337px",
+    "fix": "use one gap between sections (all within 25% of each other)",
+    "widths": [
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "section-gaps",
+    "where": "section#publica / footer#contact",
+    "msg": "519px between these sections, +54% against the median 337px of gaps at a change of ground",
+    "fix": "use one gap between sections (all within 25% of each other)",
+    "widths": [
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "proximity",
+    "where": "section#publica > div.wrap > div.grid.grid--top > div.frame.frame--lit \"Formulario de alta Cuéntanos qué retiro \"",
+    "msg": "stacked at this width, the visual starts 14px under the text and buttons above it (\"Formulario de alta Cuéntanos q\"): it reads glued to them",
+    "fix": "give the stacked split the section's own gap between text and visual (40px or more on a phone)",
+    "widths": [
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "fade-cut",
+    "where": "div.ui.ui-panel > ul.ui-checks__list > li.ui-check:nth-of-type(3) > span.ui-check__label \"Qué incluye\"",
+    "msg": "a line of div.ui.ui-panel fades out under its edge (\"Qué incluye\"): drawn at a fraction of #2c2325 on #fffefc, half-erased",
+    "fix": "fit the mock's rows inside its panel (fewer rows, a taller panel), or end the fade below the last whole row: no row half-erased",
+    "widths": [
+     390
+    ],
+    "from": "consistency"
+   }
+  ],
+  "crashed": [],
+  "seconds": {
+   "consistency": 124,
+   "layout": 5
+  }
+ },
+ "open": [],
+ "waived": [
+  {
+   "check": "no-visual",
+   "where": "section#preguntas \"Preguntas sobre Recesa\"",
+   "msg": "no picture, effect or mock in this section; a feature section needs a visual",
+   "fix": "give the section a visual: a UI fragment on a ground, real icons, or a photograph that fits",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "no-visual"
+   ],
+   "wheres": [
+    "section#preguntas \"Preguntas sobre Recesa\""
+   ],
+   "reason": "sections.md §1: an FAQ section may go without a picture, once a page; its neighbours (the app-frame and the steps) both carry UI."
+  },
+  {
+   "check": "copy-headings",
+   "where": "h2#preguntas-h \"Preguntas sobre Recesa\"",
+   "msg": "\"Preguntas sobre Recesa\" names no product, part, place or section (4 headings like it; at most one brand line per page) (and 3 more like it: \"¿Cómo me apunto como org\", \"Elige dónde aparece\", \"Recibe las solicitudes\")",
+   "fix": "name the thing in every heading: the product, a part, the place or a section noun",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "copy-headings"
+   ],
+   "wheres": [
+    "h2#preguntas-h \"Preguntas sobre Recesa\""
+   ],
+   "reason": "The page is in Spanish: 'Preguntas' is the section noun (questions) and Recesa is the product's name; the card titles are verb and object ('Recibe las solicitudes')."
+  }
+ ],
+ "warnCount": 25,
+ "at": "2026-11-21T18:26:47.082Z"
+}

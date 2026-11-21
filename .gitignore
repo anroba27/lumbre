@@ -1,2 +1,7 @@
 # Datos íntimos del participante: no se suben (ver esqueleto-datos.js: «No lo envíes a nadie»)
 privado/
+
+# landing: perfiles de Chrome y capturas de las comprobaciones
+landing/.taste-skill/chrome-*/
+landing/.taste-skill/consistency/
+landing/shots/
