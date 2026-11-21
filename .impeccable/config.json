@@ -1,0 +1,35 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "landing/index.html"
+        ],
+        "createdAt": "2026-11-21T18:39:42.859Z",
+        "reason": "Claude: checked 1440 and 390 screenshots; flagged boxes are app-window chrome bars (40px tall, text centred, 14px side padding), the two columns of one app window, and sections whose .wrap carries the 80/24px gutter"
+      },
+      {
+        "rule": "radial-halo",
+        "value": "*",
+        "files": [
+          "landing/index.html"
+        ],
+        "createdAt": "2026-11-21T18:39:42.869Z",
+        "reason": "Claude: the radial gradients are the painted-hills fallback drawn in the hero window when WebGL is off (the skill's centred hero recipe), on a light page"
+      },
+      {
+        "rule": "pulsing-dot",
+        "value": "*",
+        "files": [
+          "landing/index.html"
+        ],
+        "createdAt": "2026-11-21T18:39:47.770Z",
+        "reason": "Claude: .ly-live comes from the kit's layout.css; the page has no .ly-live element, so no dot is drawn"
+      }
+    ]
+  }
+}
