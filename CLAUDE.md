@@ -1,21 +1,21 @@
-# Prueba · Lumbre
+# Andrea · Lumbre
 
-Este archivo lo lee Claude al empezar cada conversación en esta carpeta. Lo escribió la skill `lumbre` el 21 de noviembre de 2026 a las 09:21.
+Este archivo lo lee Claude al empezar cada conversación en esta carpeta. Lo escribió la skill `lumbre` el 21 de noviembre de 2026 a las 09:26.
 
 ## Quién soy
 
-- Me llamo Prueba.
-- Estoy probando cómo funciona Lumbre.
+- Me llamo Andrea.
+- Soy consultora de estrategia y operaciones en Deloitte, focalizada en proyectos de IA.
 
 ## Cómo quiero que me hable Claude
 
 - De tú.
-- Directo y cálido, con frases cortas.
-- Si algo no me cuadra, me lo dices.
+- Directo y cálido.
 
 ## Punto de partida
 
-- Idea difusa: todavía por concretar.
+- Con idea: marketplace de retiros.
+- Tenemos la web en preproducción y necesitamos contactar con organizadores y aportarles valor para que se publiciten en este marketplace (estilo Booking, Skyscanner, Trainline…). Quiero una estrategia de venta para empezar a generar una cartera de clientes.
 
 ## Cómo trabaja Claude en esta carpeta
 

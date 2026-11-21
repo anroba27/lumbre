@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "participante": "Prueba",
+  "participante": "Andrea",
   "pasos": {
     "lumbre": {"hecho": true, "fecha": "2026-11-21"},
     "domingo": {"hecho": false, "fecha": null},
